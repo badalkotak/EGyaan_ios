@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2857EA5A7CFFB51D9D56459F /* Pods_EGyaanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4E08705CB4CC806747AC23 /* Pods_EGyaanUITests.framework */; };
+		3D75E55E2F74D9DE01DF3918 /* Pods_EGyaanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509DD76346685E1DF3E4042D /* Pods_EGyaanTests.framework */; };
+		EC867A99B1AEC087F84FC1FB /* Pods_EGyaan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C63DA011E5E0CBF738B961 /* Pods_EGyaan.framework */; };
+		F319E69A1F0E19F200E8CAA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F319E6991F0E19F200E8CAA0 /* GoogleService-Info.plist */; };
+		F35D956C1F02996500B3D209 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D956B1F02996500B3D209 /* MenuView.swift */; };
 		F37C97251E137F1800F595E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C97241E137F1800F595E2 /* AppDelegate.swift */; };
 		F37C97271E137F1800F595E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C97261E137F1800F595E2 /* ViewController.swift */; };
 		F37C972A1E137F1800F595E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37C97281E137F1800F595E2 /* Main.storyboard */; };
@@ -14,6 +19,21 @@
 		F37C972F1E137F1800F595E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37C972D1E137F1800F595E2 /* LaunchScreen.storyboard */; };
 		F37C973A1E137F1800F595E2 /* EGyaanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C97391E137F1800F595E2 /* EGyaanTests.swift */; };
 		F37C97451E137F1800F595E2 /* EGyaanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C97441E137F1800F595E2 /* EGyaanUITests.swift */; };
+		F37C97531E13868600F595E2 /* egn_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F37C97521E13868600F595E2 /* egn_white.png */; };
+		F37C97551E138DC600F595E2 /* egyaan_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F37C97541E138DC600F595E2 /* egyaan_logo_white.png */; };
+		F395BD651F01748E00A0D24E /* TimetableDetailedCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F395BD641F01748E00A0D24E /* TimetableDetailedCellViewController.swift */; };
+		F3BC98281E152BAF00E8FBD3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC98271E152BAF00E8FBD3 /* DashboardViewController.swift */; };
+		F3D1501E1F17C4BE0002B830 /* timetable.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D1501D1F17C4BE0002B830 /* timetable.png */; };
+		F3D150201F17C58B0002B830 /* noticeboard.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D1501F1F17C58B0002B830 /* noticeboard.png */; };
+		F3D4E8871E158A7A00B70BE2 /* TimetableDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4E8861E158A7900B70BE2 /* TimetableDetailedViewController.swift */; };
+		F3D852281EFFC09F00B9963E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D852271EFFC09F00B9963E /* back.png */; };
+		F3D852851EFFE76600B9963E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D852841EFFE76600B9963E /* libsqlite3.tbd */; };
+		F3D852921EFFE81400B9963E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D852891EFFE81400B9963E /* FMDatabase.m */; };
+		F3D852931EFFE81400B9963E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8528B1EFFE81400B9963E /* FMResultSet.m */; };
+		F3D852941EFFE81400B9963E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8528D1EFFE81400B9963E /* FMDatabaseQueue.m */; };
+		F3D852951EFFE81400B9963E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8528F1EFFE81400B9963E /* FMDatabaseAdditions.m */; };
+		F3D852961EFFE81400B9963E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D852911EFFE81400B9963E /* FMDatabasePool.m */; };
+		F3D852981F003A8C00B9963E /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D852971F003A8C00B9963E /* Reach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C63DA011E5E0CBF738B961 /* Pods_EGyaan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGyaan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509DD76346685E1DF3E4042D /* Pods_EGyaanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGyaanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588FE8A7B17888AD40D8C96B /* Pods-EGyaanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaanTests/Pods-EGyaanTests.release.xcconfig"; sourceTree = "<group>"; };
+		793515923110ECB3D139AFF3 /* Pods-EGyaanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaanUITests/Pods-EGyaanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA76AFBD33CB28336485E90 /* Pods-EGyaan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaan/Pods-EGyaan.debug.xcconfig"; sourceTree = "<group>"; };
+		AC746389E69E898928E162EE /* Pods-EGyaanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaanUITests/Pods-EGyaanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE4E08705CB4CC806747AC23 /* Pods_EGyaanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGyaanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F319E6991F0E19F200E8CAA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F319E69B1F0E1A6000E8CAA0 /* EGyaan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EGyaan.entitlements; sourceTree = "<group>"; };
+		F35D956B1F02996500B3D209 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F37C97211E137F1700F595E2 /* EGyaan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGyaan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37C97241E137F1800F595E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F37C97261E137F1800F595E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,31 @@
 		F37C97401E137F1800F595E2 /* EGyaanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGyaanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37C97441E137F1800F595E2 /* EGyaanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGyaanUITests.swift; sourceTree = "<group>"; };
 		F37C97461E137F1800F595E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37C97521E13868600F595E2 /* egn_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egn_white.png; sourceTree = "<group>"; };
+		F37C97541E138DC600F595E2 /* egyaan_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egyaan_logo_white.png; sourceTree = "<group>"; };
+		F395BD641F01748E00A0D24E /* TimetableDetailedCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableDetailedCellViewController.swift; sourceTree = "<group>"; };
+		F3BC98271E152BAF00E8FBD3 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		F3D1501D1F17C4BE0002B830 /* timetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timetable.png; sourceTree = "<group>"; };
+		F3D1501F1F17C58B0002B830 /* noticeboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noticeboard.png; sourceTree = "<group>"; };
+		F3D4E8861E158A7900B70BE2 /* TimetableDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableDetailedViewController.swift; sourceTree = "<group>"; };
+		F3D852271EFFC09F00B9963E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		F3D852821EFFE5D200B9963E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F3D852841EFFE76600B9963E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F3D852861EFFE81300B9963E /* EGyaan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGyaan-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3D852871EFFE81400B9963E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		F3D852881EFFE81400B9963E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		F3D852891EFFE81400B9963E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		F3D8528A1EFFE81400B9963E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		F3D8528B1EFFE81400B9963E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		F3D8528C1EFFE81400B9963E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F3D8528D1EFFE81400B9963E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F3D8528E1EFFE81400B9963E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F3D8528F1EFFE81400B9963E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F3D852901EFFE81400B9963E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		F3D852911EFFE81400B9963E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		F3D852971F003A8C00B9963E /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		FB5AD5C797032E093F52B7E4 /* Pods-EGyaanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaanTests/Pods-EGyaanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC04619AFA0390A496E495BC /* Pods-EGyaan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGyaan.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGyaan/Pods-EGyaan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D852851EFFE76600B9963E /* libsqlite3.tbd in Frameworks */,
+				EC867A99B1AEC087F84FC1FB /* Pods_EGyaan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D75E55E2F74D9DE01DF3918 /* Pods_EGyaanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2857EA5A7CFFB51D9D56459F /* Pods_EGyaanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C803FBF034B0704CFA8296D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76AFBD33CB28336485E90 /* Pods-EGyaan.debug.xcconfig */,
+				FC04619AFA0390A496E495BC /* Pods-EGyaan.release.xcconfig */,
+				FB5AD5C797032E093F52B7E4 /* Pods-EGyaanTests.debug.xcconfig */,
+				588FE8A7B17888AD40D8C96B /* Pods-EGyaanTests.release.xcconfig */,
+				793515923110ECB3D139AFF3 /* Pods-EGyaanUITests.debug.xcconfig */,
+				AC746389E69E898928E162EE /* Pods-EGyaanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F37C97181E137F1700F595E2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,8 @@
 				F37C97381E137F1800F595E2 /* EGyaanTests */,
 				F37C97431E137F1800F595E2 /* EGyaanUITests */,
 				F37C97221E137F1700F595E2 /* Products */,
+				F3D852811EFFE5D200B9963E /* Frameworks */,
+				C803FBF034B0704CFA8296D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +171,36 @@
 		F37C97231E137F1700F595E2 /* EGyaan */ = {
 			isa = PBXGroup;
 			children = (
+				F319E69B1F0E1A6000E8CAA0 /* EGyaan.entitlements */,
 				F37C97241E137F1800F595E2 /* AppDelegate.swift */,
 				F37C97261E137F1800F595E2 /* ViewController.swift */,
+				F3BC98271E152BAF00E8FBD3 /* DashboardViewController.swift */,
 				F37C97281E137F1800F595E2 /* Main.storyboard */,
+				F35D956B1F02996500B3D209 /* MenuView.swift */,
+				F3D4E8861E158A7900B70BE2 /* TimetableDetailedViewController.swift */,
+				F395BD641F01748E00A0D24E /* TimetableDetailedCellViewController.swift */,
+				F37C97541E138DC600F595E2 /* egyaan_logo_white.png */,
+				F3D852271EFFC09F00B9963E /* back.png */,
+				F37C97521E13868600F595E2 /* egn_white.png */,
+				F3D1501D1F17C4BE0002B830 /* timetable.png */,
+				F3D1501F1F17C58B0002B830 /* noticeboard.png */,
 				F37C972B1E137F1800F595E2 /* Assets.xcassets */,
 				F37C972D1E137F1800F595E2 /* LaunchScreen.storyboard */,
+				F3D852871EFFE81400B9963E /* FMDB.h */,
+				F3D852881EFFE81400B9963E /* FMDatabase.h */,
+				F3D852891EFFE81400B9963E /* FMDatabase.m */,
+				F3D8528A1EFFE81400B9963E /* FMResultSet.h */,
+				F3D8528B1EFFE81400B9963E /* FMResultSet.m */,
+				F3D8528C1EFFE81400B9963E /* FMDatabaseQueue.h */,
+				F3D8528D1EFFE81400B9963E /* FMDatabaseQueue.m */,
+				F3D8528E1EFFE81400B9963E /* FMDatabaseAdditions.h */,
+				F3D8528F1EFFE81400B9963E /* FMDatabaseAdditions.m */,
+				F3D852901EFFE81400B9963E /* FMDatabasePool.h */,
+				F3D852911EFFE81400B9963E /* FMDatabasePool.m */,
 				F37C97301E137F1800F595E2 /* Info.plist */,
+				F319E6991F0E19F200E8CAA0 /* GoogleService-Info.plist */,
+				F3D852861EFFE81300B9963E /* EGyaan-Bridging-Header.h */,
+				F3D852971F003A8C00B9963E /* Reach.swift */,
 			);
 			path = EGyaan;
 			sourceTree = "<group>";
@@ -125,6 +223,18 @@
 			path = EGyaanUITests;
 			sourceTree = "<group>";
 		};
+		F3D852811EFFE5D200B9963E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3D852841EFFE76600B9963E /* libsqlite3.tbd */,
+				F3D852821EFFE5D200B9963E /* libsqlite3.0.tbd */,
+				06C63DA011E5E0CBF738B961 /* Pods_EGyaan.framework */,
+				509DD76346685E1DF3E4042D /* Pods_EGyaanTests.framework */,
+				AE4E08705CB4CC806747AC23 /* Pods_EGyaanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F37C97491E137F1800F595E2 /* Build configuration list for PBXNativeTarget "EGyaan" */;
 			buildPhases = (
+				3A308EC5229842D0BAE2DA91 /* [CP] Check Pods Manifest.lock */,
 				F37C971D1E137F1700F595E2 /* Sources */,
 				F37C971E1E137F1700F595E2 /* Frameworks */,
 				F37C971F1E137F1700F595E2 /* Resources */,
+				E16C35ED192243B9B058BAF5 /* [CP] Embed Pods Frameworks */,
+				832780C1BC09E53600FA86A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F37C974C1E137F1800F595E2 /* Build configuration list for PBXNativeTarget "EGyaanTests" */;
 			buildPhases = (
+				7C48A1F3201F2F26BD5D4EF0 /* [CP] Check Pods Manifest.lock */,
 				F37C97311E137F1800F595E2 /* Sources */,
 				F37C97321E137F1800F595E2 /* Frameworks */,
 				F37C97331E137F1800F595E2 /* Resources */,
+				1B1345A0F591EDE9D6CBFA2E /* [CP] Embed Pods Frameworks */,
+				00DB6227C0DE0EA6450BB4BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F37C974F1E137F1800F595E2 /* Build configuration list for PBXNativeTarget "EGyaanUITests" */;
 			buildPhases = (
+				1F421ED73CA91E01E037EBE7 /* [CP] Check Pods Manifest.lock */,
 				F37C973C1E137F1800F595E2 /* Sources */,
 				F37C973D1E137F1800F595E2 /* Frameworks */,
 				F37C973E1E137F1800F595E2 /* Resources */,
+				FDB9BC407182C8220859954B /* [CP] Embed Pods Frameworks */,
+				91BD89CA8F41E82E63D6AB1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +312,17 @@
 				TargetAttributes = {
 					F37C97201E137F1700F595E2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5KR6G445RQ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					F37C97341E137F1800F595E2 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -233,7 +362,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37C972F1E137F1800F595E2 /* LaunchScreen.storyboard in Resources */,
+				F319E69A1F0E19F200E8CAA0 /* GoogleService-Info.plist in Resources */,
+				F3D150201F17C58B0002B830 /* noticeboard.png in Resources */,
+				F3D1501E1F17C4BE0002B830 /* timetable.png in Resources */,
 				F37C972C1E137F1800F595E2 /* Assets.xcassets in Resources */,
+				F37C97531E13868600F595E2 /* egn_white.png in Resources */,
+				F37C97551E138DC600F595E2 /* egyaan_logo_white.png in Resources */,
+				F3D852281EFFC09F00B9963E /* back.png in Resources */,
 				F37C972A1E137F1800F595E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +389,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00DB6227C0DE0EA6450BB4BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaanTests/Pods-EGyaanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B1345A0F591EDE9D6CBFA2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaanTests/Pods-EGyaanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F421ED73CA91E01E037EBE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A308EC5229842D0BAE2DA91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C48A1F3201F2F26BD5D4EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		832780C1BC09E53600FA86A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaan/Pods-EGyaan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91BD89CA8F41E82E63D6AB1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaanUITests/Pods-EGyaanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16C35ED192243B9B058BAF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaan/Pods-EGyaan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB9BC407182C8220859954B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGyaanUITests/Pods-EGyaanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F37C971D1E137F1700F595E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F37C97271E137F1800F595E2 /* ViewController.swift in Sources */,
+				F3D852981F003A8C00B9963E /* Reach.swift in Sources */,
+				F3D852921EFFE81400B9963E /* FMDatabase.m in Sources */,
+				F395BD651F01748E00A0D24E /* TimetableDetailedCellViewController.swift in Sources */,
+				F3BC98281E152BAF00E8FBD3 /* DashboardViewController.swift in Sources */,
+				F3D852961EFFE81400B9963E /* FMDatabasePool.m in Sources */,
+				F3D4E8871E158A7A00B70BE2 /* TimetableDetailedViewController.swift in Sources */,
+				F3D852931EFFE81400B9963E /* FMResultSet.m in Sources */,
+				F35D956C1F02996500B3D209 /* MenuView.swift in Sources */,
 				F37C97251E137F1800F595E2 /* AppDelegate.swift in Sources */,
+				F3D852941EFFE81400B9963E /* FMDatabaseQueue.m in Sources */,
+				F3D852951EFFE81400B9963E /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,30 +691,48 @@
 		};
 		F37C974A1E137F1800F595E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA76AFBD33CB28336485E90 /* Pods-EGyaan.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EGyaan/EGyaan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5KR6G445RQ;
 				INFOPLIST_FILE = EGyaan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EGyaan.EGyaan;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.e-gyaan.egyaan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EGyaan/EGyaan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F37C974B1E137F1800F595E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC04619AFA0390A496E495BC /* Pods-EGyaan.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EGyaan/EGyaan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5KR6G445RQ;
 				INFOPLIST_FILE = EGyaan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EGyaan.EGyaan;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.e-gyaan.egyaan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EGyaan/EGyaan-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		F37C974D1E137F1800F595E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5AD5C797032E093F52B7E4 /* Pods-EGyaanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +747,7 @@
 		};
 		F37C974E1E137F1800F595E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588FE8A7B17888AD40D8C96B /* Pods-EGyaanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +762,7 @@
 		};
 		F37C97501E137F1800F595E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793515923110ECB3D139AFF3 /* Pods-EGyaanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EGyaanUITests/Info.plist;
@@ -473,6 +776,7 @@
 		};
 		F37C97511E137F1800F595E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC746389E69E898928E162EE /* Pods-EGyaanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EGyaanUITests/Info.plist;
@@ -503,6 +807,7 @@
 				F37C974B1E137F1800F595E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F37C974C1E137F1800F595E2 /* Build configuration list for PBXNativeTarget "EGyaanTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +816,7 @@
 				F37C974E1E137F1800F595E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F37C974F1E137F1800F595E2 /* Build configuration list for PBXNativeTarget "EGyaanUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +825,7 @@
 				F37C97511E137F1800F595E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

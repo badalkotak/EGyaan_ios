@@ -1,0 +1,6 @@
+framework module Pods_EGyaan {
+  umbrella header "Pods-EGyaan-umbrella.h"
+
+  export *
+  module * { export * }
+}
